@@ -4,6 +4,6 @@ Clear-Host
 [double]$valorDeposito = Read-Host "DIGITE O VALOR DO DEPOSITO: "
 [double]$valorSaque = Read-Host "DIGITE O VALOR DO SAQUE: "
 
-if $valorSaque < 0:
+if ($valorSaque -lt 0){
     Write-Host "O VALOR DO SAQUE TEM QUE SER ACIMA DE ZERO!"
-    
+}
