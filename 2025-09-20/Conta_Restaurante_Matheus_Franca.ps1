@@ -5,6 +5,6 @@ Write-Host "CONTA DE RESTAURANTE"
 
 [double]$valorTotal = $valorConta / $qtdPessoas
 
-Write-Host "VALOR DA CONTA: R$ $valorConta
+Write-Host ("VALOR DA CONTA: R$ $valorConta
 QUANTIDADE DE PESSOAS NA MESA: $qtdPessoas
-VALOR A SER PAGO POR CADA PESSOA É: R$ {0:N2} -f $valorTotal"
+VALOR A SER PAGO POR CADA PESSOA É: R$ {0:N2}" -f $valorTotal)
