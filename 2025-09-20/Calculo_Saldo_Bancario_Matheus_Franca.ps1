@@ -4,6 +4,12 @@ Clear-Host
 [double]$valorDeposito = Read-Host "DIGITE O VALOR DO DEPOSITO: "
 [double]$valorSaque = Read-Host "DIGITE O VALOR DO SAQUE: "
 
-if ($valorSaque -lt 0){
-    Write-Host "O VALOR DO SAQUE TEM QUE SER ACIMA DE ZERO!"
-}
+
+$valorAtual = ($saldoInicial + $valorDeposito) - $valorSaque
+
+
+
+Write-Host "O valor que foi adicionado na foi: $saldoInicial, o deposito foi de $valorDeposito e o saque foi de $valorSaque.\nApós as operações, o seu saldo ficou: $valorAtual!"
+
+
+
