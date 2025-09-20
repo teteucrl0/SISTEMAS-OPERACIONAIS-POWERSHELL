@@ -4,4 +4,4 @@
 [int]$sobraHoras = $horasDisponiveis % $numeroDisciplinas
 
 Write-Host "`nHORAS DEDICADAS POR DISCIPLINA: $horasDedicadas
-HORAS QUE RESTANTES: $sobraHoras"
+HORAS RESTANTES: $sobraHoras"
