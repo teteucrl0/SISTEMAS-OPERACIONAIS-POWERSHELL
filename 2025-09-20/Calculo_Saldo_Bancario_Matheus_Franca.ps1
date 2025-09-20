@@ -10,8 +10,9 @@ $valorAtual = ($saldoInicial + $valorDeposito) - $valorSaque
 
 
 
-Write-Host "O valor que foi adicionado na sua conta foi: $saldoInicial,
-o deposito foi de $valorDeposito e o saque foi de $valorSaque.
+Write-Host "SEU SALDO$saldoInicial
+DEPOSITO: $valorDeposito
+SAQUE: $valorSaque.
 `nApós as operações, o seu saldo ficou: $valorAtual!"
 
 
