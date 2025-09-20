@@ -3,4 +3,5 @@
 [int]$horasDedicadas = [int]($horasDisponiveis / $numeroDisciplinas)
 [int]$sobraHoras = $horasDisponiveis % $numeroDisciplinas
 
-Write-Host "$horasDedicadas e $sobraHoras"
+Write-Host "HORAS DEDICADAS POR DISCIPLINA: $horasDedicadas
+HORAS QUE RESTANTES: $sobraHoras"
