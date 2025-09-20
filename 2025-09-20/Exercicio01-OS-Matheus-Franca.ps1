@@ -1,0 +1,4 @@
+Clear-Host
+
+$estoqueAtual = "DIGITE O QUANTIDADE DO SEU ESTOQUE ATUAL: "
+$produtosVendidos = "DIGITE A QUANTIDADE DE PRODUTOS VENDIDOS: "
