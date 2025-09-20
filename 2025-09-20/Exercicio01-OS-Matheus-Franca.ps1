@@ -1,4 +1,4 @@
 Clear-Host
 
-$estoqueAtual = "DIGITE O QUANTIDADE DO SEU ESTOQUE ATUAL: "
-$produtosVendidos = "DIGITE A QUANTIDADE DE PRODUTOS VENDIDOS: "
+$estoqueAtual = Read-Host "DIGITE O QUANTIDADE DO SEU ESTOQUE ATUAL: "
+$produtosVendidos = Read-Host "DIGITE A QUANTIDADE DE PRODUTOS VENDIDOS: "
